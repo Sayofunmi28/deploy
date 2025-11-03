@@ -25,7 +25,6 @@ jobs:
           name: storage-logs
           path: storage_actions.log
 
-
       - name: Run Bash storage script
         run: |
           chmod +x cloud_storage.sh
